@@ -2,7 +2,7 @@ version: '3'
 
 services:
     mgp25_php:
-      build: .
+      build: instagram-php
       image: mgp25_php
       expose:
           - 9000

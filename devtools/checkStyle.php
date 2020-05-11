@@ -26,7 +26,7 @@ require __DIR__.'/../vendor/autoload.php';
 
 $onlyShowInvalidFiles = isset($argv[1]); // Hide valid files if argv[1] is set.
 $styleChecker = new styleChecker(
-    __DIR__.'/../',
+    __DIR__ . '/instagram-php/',
     [ // List of all subfolders to inspect.
         'devtools',
         'examples',

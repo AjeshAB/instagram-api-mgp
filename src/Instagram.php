@@ -249,7 +249,7 @@ class Instagram implements ExperimentsInterface
             // blank webpage with "Error 500" if we throw here, which would just
             // confuse the newbies even more. Instead, we output a HTML warning
             // message for people who try to run the library on a webpage.
-            echo file_get_contents(__DIR__.'/../webwarning.htm');
+            echo file_get_contents(__DIR__ . '/../webwarning.htm');
             echo '<p>If you truly want to enable <em>incorrect</em> website usage by directly embedding this application emulator library in your page, then you can do that <strong>AT YOUR OWN RISK</strong> by setting the following flag <em>before</em> you create the <code>Instagram()</code> object:</p>'.PHP_EOL;
             echo '<p><code>\InstagramAPI\Instagram::$allowDangerousWebUsageAtMyOwnRisk = true;</code></p>'.PHP_EOL;
             exit(0); // Exit without error to avoid triggering Error 500.
