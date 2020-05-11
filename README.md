@@ -6,23 +6,8 @@ This is a PHP library which emulates Instagram's Private API. This library is pa
 
 **Frequently Asked Questions:** [F.A.Q.](https://github.com/mgp25/Instagram-API/wiki/FAQ)
 
-**Do you like this project? Support it by donating**
 
 **mgp25**
-
-- ![Paypal](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/paypal.png) Paypal: [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5ATYY8H9MC96E)
-- ![btc](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/bitcoin.png) Bitcoin: 1DCEpC9wYXeUGXS58qSsqKzyy7HLTTXNYe
-
-**stevejobzniak**
-
-- ![Paypal](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/paypal.png) Paypal: [Donate](https://www.paypal.me/Armindale/0usd)
-- ![btc](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/bitcoin.png) Bitcoin: 18XF1EmrkpYi4fqkR2XcHkcJxuTMYG4bcv
-
-**jroy**
-
-- ![Paypal](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/paypal.png) Paypal: [Donate](https://www.paypal.me/JoshuaRoy1/0usd)
-- ![btc](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/bitcoin.png) Bitcoin: 32J2AqJBDY1VLq6wfZcLrTYS8fCcHHVDKD
-
 ----------
 ## Installation
 
@@ -35,7 +20,7 @@ We use composer to distribute our code effectively and easily. If you do not alr
 
 Once you have composer installed, you can do the following:
 ```sh
-composer require mgp25/instagram-php
+composer require hamzadurak/mgp25
 ```
 
 ```php
@@ -47,7 +32,7 @@ $ig = new \InstagramAPI\Instagram();
 If you want to test new and possibly unstable code that is in the master branch, and which hasn't yet been released, then you can do the following (at your own risk):
 
 ```sh
-composer require mgp25/instagram-php dev-master
+composer require hamzadurak/mgp25 dev-master
 ```
 
 #### _Warning about moving data to a different server_
