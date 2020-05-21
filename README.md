@@ -45,7 +45,7 @@ All examples can be found [here](https://github.com/mgp25/Instagram-API/tree/mas
 
 ## Code of Conduct
 
-This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
+This project adheres to the Contributor Covenant [code of conduct](instagram-php/CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code.
 Please report any unacceptable behavior.
 
